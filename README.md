@@ -2,24 +2,26 @@
 
 ## Overview
 
-This project implements the AES (Advanced Encryption Standard) encryption algorithm using VHDL.
+This project implements the AES (Advanced Encryption Standard) algorithm using VHDL. The design is modular, with each AES transformation implemented as a separate module.
 
-## Features
+## AES Modules Implemented
 
-* Modular RTL design (AddRoundKey, MixColumns, SubBytes, etc.)
-* Simulation using ModelSim
-* Testbench verification
-
-## Project Structure
-
-* `src/` → VHDL source files
-* `tb/` → Testbench files
+* SubBytes
+* ShiftRows
+* MixColumns
+* AddRoundKey
+* Key Expansion
 
 ## Tools Used
 
 * VHDL
 * ModelSim
 * Xilinx Vivado
+
+## Project Structure
+
+* `src/` → Source code
+* `tb/` → Testbench
 
 ## Author
 
